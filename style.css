@@ -1,0 +1,150 @@
+/* Corps de la page */
+body {
+    background-color: #e8f5e9; 
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Titres principaux (h1, h2, h3) */
+h1, h2, h3 {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    color: #2C6B2F; 
+}
+
+/* Liens */
+a {
+    text-decoration: none;
+    color: #42A5F5; 
+}
+
+a:hover {
+    color: #1E88E5; 
+}
+
+/* Paragraphes */
+p {
+    text-align: justify;
+    color: #555555; 
+    line-height: 1.6; 
+}
+
+/* Bannière */
+.banner {
+    background-image: linear-gradient(-225deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 50%), url(Images/Banner.jpg);
+    color: dark;
+    padding: 40px 0;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+}
+
+/* Titres dans la bannière */
+.banner h1 {
+    font-size: 50px;
+    margin: 0;
+    color: #81C784; 
+}
+
+.banner h2 {
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: bolder;
+    color: #66BB6A; 
+    opacity: 0.8;
+}
+
+/* Conteneur général */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Profil */
+.profil {
+    color: #388E3C; 
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Section Produits */
+.produits {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.produit {
+    flex-basis: 22%;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    background-color: #ffffff; 
+}
+
+.produit img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.produit h3 {
+    margin-top: 10px;
+    color: #2C6B2F; 
+}
+
+/* Bouton commander */
+.commander {
+    display: inline-block;
+    background-color: #388E3C; 
+    padding: 10px 25px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.commander:hover {
+    background-color: #2C6B2F; 
+}
+
+/* Image du logo */
+.images {
+    max-width: 200px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Section avec Typeform */
+.typeform-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Sections et autres titres */
+h2 {
+    color: #2C6B2F;
+    margin-top: 40px;
+}
+
+/* Nouvelle couleur d'accent */
+.accent-color {
+    color: #42A5F5; 
+}
+
+/* Ajouter une couleur d'accent aux liens importants */
+.accent-link {
+    color: #42A5F5;
+}
+
+.accent-link:hover {
+    color: #1E88E5; 
+}
